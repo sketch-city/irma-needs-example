@@ -1,22 +1,22 @@
 (function(window){
   var config = {};
 
-  config.event = 'Harvey';
-  config.additionalText = '**Need help? [Find shelters here.](http://houstonsheltermap.com/)**';
+  config.event = 'Irma';
+  // config.additionalText = '**Need help? [Find shelters here.](irmashelters.org/map-link-here-when-ready)**';
 
-  config.dataEntryPortal = '//api.harveyneeds.org';
-  config.apiBaseURL = '//api.harveyneeds.org/api/v1/';
-  config.googleMapsAPIKey = 'AIzaSyDM0QbbXx1iFol1yxSh0UMO0rPMj4ZXlGo';
+  config.dataEntryPortal = '//irma-api.herokuapp.com/';
+  config.apiBaseURL = '//irma-api.herokuapp.com/api/v1/';
+  config.googleMapsAPIKey = 'AIzaSyAP7W-h_jBmtgRcROX1y-ZDNpTorc-PwlU';
 
   config.mapDefaults = {
     center: {
-      lat: 29.7604,
-      lng: -95.3698
+      lat: 25.7738889,
+      lng: -80.2545237
     },
     zoom: 12
   };
 
-  config.analyticsId = 'UA-105727042-3';
+  config.analyticsId = 'UA-105623670-2';
 
   config.nullPhrases = [];
 
